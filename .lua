@@ -1,0 +1,60 @@
+local Passwords = {"ROSE","MEMO",""}
+
+
+local Menu = gg.prompt({"☑️ Şifre:"},nil,{"text"})
+if not Menu then return end
+for l , I in pairs(Passwords) do
+if Menu[1] == I then A = true end
+end
+if A ~= true then 
+gg.toast("■■■■■■■■■■■: %100")
+gg.sleep(100)
+gg.toast("■■■■■■■■■■□: %90")
+gg.sleep(100)
+gg.toast("■■■■■■■■■□□: %80")
+gg.sleep(100)
+gg.toast("■■■■■■■■□□□: %70")
+gg.sleep(100)
+gg.toast("■■■■■■■□□□□: %60")
+gg.sleep(100)
+gg.toast("■■■■■■□□□□□: %50")
+gg.sleep(100)
+gg.toast("■■■■■□□□□□□: %40")
+gg.sleep(100)
+gg.toast("■■■■□□□□□□□: %30")
+gg.sleep(100)
+gg.toast("■■■□□□□□□□□: %20")
+gg.sleep(100)
+gg.toast("■■□□□□□□□□□: %10")
+gg.sleep(100)
+gg.toast("■□□□□□□□□□□: %5")
+gg.sleep(100)
+gg.toast("□□□□□□□□□□□: %0")
+gg.alert("❌ Hayır Öyle Bir Key Yok ❌\n🗓 ️Yada Süresi Bitti 🗓️") 
+return 
+else
+gg.toast("□□□□□□□□□□□: %0")
+gg.sleep(100)
+gg.toast("■□□□□□□□□□: %10")
+gg.sleep(100)
+gg.toast("■■□□□□□□□□□: %20")
+gg.sleep(100)
+gg.toast("■■■□□□□□□□□: %30")
+gg.sleep(100)
+gg.toast("■■■■□□□□□□□: %40")
+gg.sleep(100)
+gg.toast("■■■■■□□□□□□: %50")
+gg.sleep(100)
+gg.toast("■■■■■■□□□□□: %60")
+gg.sleep(100)
+gg.toast("■■■■■■■□□□□: %60")
+gg.sleep(100)
+gg.toast("■■■■■■■■□□□: %70")
+gg.sleep(100)
+gg.toast("■■■■■■■■■□□: %80")
+gg.sleep(100)
+gg.toast("■■■■■■■■■■□: %90")
+gg.sleep(100)
+gg.toast("■■■■■■■■■■■: %100") 
+gg.alert("✔ ️Giriş Başarılı ✔️\n🗓️Keyinizin Süresini Uzatmak İsterseniz @TRroser Yazın🗓️\n\n✍️ PHP Coder @IAMMEMOOKK & @TRroser ✍️")
+end 
